@@ -3,4 +3,5 @@ function inc(num) {
 }
 const obj = {n: 5}
 inc(obj)
+console.log(obj)
 
