@@ -1,6 +1,5 @@
-function inc(num) {
-    num.n = num.n + 1
-}
+const inc = (obj) => obj.n++
+
 const obj = {n: 5}
 inc(obj)
 console.log(obj)
